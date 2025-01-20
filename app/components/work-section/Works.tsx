@@ -13,51 +13,55 @@ export default function Works() {
 
   const works = [
     {
-      title: "Offset Africa",
-      // gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://offsetcomms.africa/",
+      title: "Accreditations",
+      liveLink: "https://accreditation.studiumtech.in/",
       about:
         "Offset Communications Africa’s website really allows them to stand out in the PR sector. It shows their works and case studies — highlighting their expertise and educating users about the company philosophy.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
-      img: "/offset-folio.svg",
+      stack: ["Next.js", "Javascript", "Mantine", "TailwindCSS", "Shadcn"],
+      // img: "/offset-folio.svg",
     },
     {
-      title: "Shortly",
-      gitLink: "https://github.com/adex-hub/url-shortening-api-landing",
-      liveLink: "https://lnk-shortener.netlify.app/",
+      title: "SaaS Website Builder",
+      liveLink: "https://your-website-builder-link.com/",
       about:
-        "A link shortener for a fictional company that effectively shortens links and stores them. No matter how many links you shorten, you can revisit the site anytime to view and manage your previously shortened links.",
-      stack: ["next.js", "typescript", "framer motion", "tailwindcss"],
-      img: "/shortly.svg",
+        "A self-hosted portfolio website builder designed for users to easily create and customize their personal websites. The platform supports easy deployment and customization through Next.js.",
+      stack: ["Next.js", "Prisma", "TailwindCSS", "MongoDB"],
+      // img: "/saas-website-builder.svg",
     },
     {
-      title: "Where in the world",
-      gitLink: "https://github.com/adex-hub/where-in-the-world",
-      liveLink: "https://where-in-the-world-ade.netlify.app/",
+      title: "Charging Stations App",
+      liveLink: "https://your-charging-stations-app-link.com/",
       about:
-        "A fun tool for checking information about any country in the world such as the country’s native name, currency, population,  border countries etc. It features dynamic routing for each country and theme switch.",
-      stack: ["react", "react-router", "javascript", "tailwindcss"],
-      img: "/witw.svg",
+        "An app that helps users locate charging stations worldwide. The app uses real-time data and integrates maps to display locations and availability.",
+      stack: ["React Native", "Redux", "Google Maps API", "Node.js"],
+      // img: "/charging-stations-app.svg",
     },
-    // {
-    //   title: "Yourtodo",
-    //   gitLink: "https://github.com/adex-hub/Yourtodo",
-    //   liveLink: "https://yourtodo-v1.vercel.app/",
-    //   about:
-    //     "This task management system lets you customize your name, add, delete, and edit tasks, and celebrates you when tasks are completed. It features built-in notifications and stores data in the browser, allowing you to resume tasks conveniently. Designed and developed by yours truly.",
-    //   stack: ["react", "javascript", "figma", "sass"],
-    //   img: "/todo.svg",
-    // },
     {
-      title: "Multi-step form",
-      gitLink: "https://github.com/adex-hub/multi-step-form-main",
-      liveLink: "https://ade-loremgaming.netlify.app/",
+      title: "PDF & Document Generator",
+      liveLink: "https://your-pdf-generator-link.com/",
       about:
-        "This site features a clean, user-friendly multi-step form for subscribing to a gaming service. Users input personal info, select a plan (monthly or yearly), choose add-ons (online service, larger storage, customizable profile), and review the summary before confirming.",
-      stack: ["html", "sass", "javascript", "ms clarity"],
-      img: "/multistep.svg",
+        "A platform that generates PDFs and Word documents dynamically based on user input. It allows customization of templates for various business needs.",
+      stack: ["Node.js", "Express", "html-pdf-node", "docx"],
+      // img: "/pdf-generator.svg",
+    },
+    {
+      title: "Strategic Planning Bot",
+      liveLink: "https://your-strategic-planning-link.com/",
+      about:
+        "A bot that helps institutes generate strategic plans based on their vision and mission statements. It is designed to align objectives with the institute's goals and accreditation requirements.",
+      stack: ["Next.js", "GPT API", "MongoDB", "Node.js"],
+      // img: "/strategic-planning.svg",
+    },
+    {
+      title: "Student App (Studium)",
+      liveLink: "https://your-student-app-link.com/",
+      about:
+        "A mobile app built with React Native that helps students manage their academic activities and assignments. The app integrates with external APIs for notifications and calendar management.",
+      stack: ["React Native", "Firebase", "Redux", "Node.js"],
+      // img: "/student-app.svg",
     },
   ];
+  
 
   const { ref, inView } = useInView({
     threshold: 0.1,
@@ -78,9 +82,9 @@ export default function Works() {
       {works.map((work, index) => (
         <FolioCard
           key={index}
-          img={work.img}
+          // img={work.img}
           title={work.title}
-          gitLink={work.gitLink}
+          // gitLink={work.gitLink}
           liveLink={work.liveLink}
           about={work.about}
           stack={work.stack}

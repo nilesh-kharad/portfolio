@@ -10,54 +10,55 @@ import { ViewProvider } from "@/contexts/ViewContext";
 const kumbhSans = Kumbh_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adeola Badero — Frontend Software Engineer",
+  title: "Nilesh Kharad — Senior MERN Stack Developer",
   description:
-    "A Frontend Engineer passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
+    "A Senior MERN Stack Developer with 3 years of experience, passionate about building scalable web applications and crafting seamless user experiences. I specialize in creating efficient, robust, and intuitive digital solutions.",
   keywords: [
-    "frontend",
+    "mern stack",
+    "node.js",
     "react",
-    "tech",
-    "creative developer",
-    "UI development",
-    "frontend engineer",
+    "mongodb",
+    "express",
+    "full-stack development",
+    "web development",
     "developer portfolio",
-    "creative development",
-    "nigeria",
-    "software",
+    "frontend engineer",
+    "backend engineer",
+    "pune",
     "software developer",
     "software engineer",
     "portfolio",
   ],
   openGraph: {
-    title: "Adeola Badero — Frontend Software Engineer",
+    title: "Nilesh Kharad — Senior MERN Stack Developer",
     description:
-      "Frontend Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    url: "https://www.adeolabadero.me",
-    siteName: "www.adeolabadero.me",
+      "Senior MERN Stack Developer with 3 years of experience, passionate about building scalable web applications and crafting seamless user experiences. I specialize in creating efficient, robust, and intuitive digital solutions.",
+    url: "https://www.nileshkharad.dev", // Update with your actual portfolio URL
+    siteName: "www.nileshkharad.dev", // Update with your actual portfolio domain
     images: [
       {
-        url: "https://i.ibb.co/FKMqc28/adeola-badero.png",
+        url: "https://your-image-link.com/nilesh-kharad.png", // Replace with your actual image URL
         width: 1200,
         height: 630,
-        alt: "Adeola Badero — Frontend Software Engineer",
+        alt: "Nilesh Kharad — Senior MERN Stack Developer",
       },
       {
-        url: "https://i.ibb.co/Y8hBTR4/ade-800.png",
+        url: "https://your-image-link.com/nilesh-800.png", // Replace with another image URL
         width: 800,
         height: 800,
-        alt: "Adeola Badero — Frontend Software Engineer",
+        alt: "Nilesh Kharad — Senior MERN Stack Developer",
       },
     ],
-    locale: "en-US",
+    locale: "en-IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adeola Badero — Software Engineer",
+    title: "Nilesh Kharad — Senior MERN Stack Developer",
     description:
-      "Frontend Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    creator: "@Ade_the_great",
-    images: ["https://i.ibb.co/FKMqc28/adeola-badero.png"],
+      "A Senior MERN Stack Developer with 3 years of experience, passionate about building scalable web applications and crafting seamless user experiences. I specialize in creating efficient, robust, and intuitive digital solutions.",
+    creator: "@your_twitter_handle", // Replace with your actual Twitter handle
+    images: ["https://your-image-link.com/nilesh-kharad.png"], // Replace with your actual image URL
   },
   robots: {
     index: true,
@@ -70,6 +71,7 @@ export const metadata: Metadata = {
   },
   category: "technology",
 };
+
 
 export default function RootLayout({
   children,
