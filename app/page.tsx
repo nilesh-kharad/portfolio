@@ -6,6 +6,7 @@ import Contact from "./components/contact+footer/Contact";
 import Footer from "./components/contact+footer/Footer";
 import { initialBlobityOptions } from "@/utils/blobity.config";
 import useBlobity from "blobity/lib/react/useBlobity";
+import Skills from "./components/skills-section/Skills";
 
 export default function Home() {
   const blobity = useBlobity(initialBlobityOptions);
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <Skills />
       <Works />
       <About />
       <Contact />

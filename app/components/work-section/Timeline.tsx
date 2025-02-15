@@ -7,11 +7,11 @@ const syne = Syne({ subsets: ["latin"] });
 
 const TimelineData = [
   {
-    companyImg: "/studiumtech-logo.svg",
+    companyImg: "/studium_logo.png",
     jobTitle: "Senior MERN Stack Developer",
     company: "Studium Technologies",
     jobType: "Full-time",
-    duration: "Apr 2023 - Present",
+    duration: "Apr 2022 - Present",
     stuffIDid: [
       "Developing and maintaining a SaaS product that helps educational institutes manage data and accreditation using Next.js, Prisma, and MongoDB.",
       "Building a platform for generating vision and mission statements based on keywords, improving the efficiency of accreditation processes.",
