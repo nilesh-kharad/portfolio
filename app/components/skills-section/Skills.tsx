@@ -27,8 +27,7 @@ export default function Skills() {
           <AnimatedTitle
             wordSpace={"mr-[0.5ch]"}
             charSpace={"mr-[0.001em]"}
-            className="font-bold antialiased text-xl md:text-2xl mb-2"
-          >
+            className="font-bold antialiased text-xl md:text-2xl mb-2">
             My Skills
           </AnimatedTitle>
           <AnimatedBody className="text-white/60 text-base md:text-xl leading-8">

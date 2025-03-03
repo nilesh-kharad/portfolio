@@ -13,6 +13,13 @@ export default function Works() {
 
   const works = [
     {
+      title: "Vercel Manager",
+      liveLink: "",
+      about:"Developed an Android application that enables users to deploy and manage their Vercel projects directly from their mobile devices. The app provides a seamless interface for interacting with Vercel APIs, allowing users to monitor deployments, view logs, and manage projects without needing a desktop. Built as a frontend-only application, it ensures efficiency and responsiveness while maintaining a user-friendly experience. Launched with a free trial model, followed by a subscription-based monetization strategy ($5/month).",
+      stack: ["React native", "Javascript", "React-native-Paper", "Expo", "Vercel Apis"],
+      // img: "/offset-folio.svg",
+    },
+    {
       title: "Accreditations",
       liveLink: "https://accreditation.studiumtech.in/",
       about:"Studium is a B2B SaaS platform dedicated to simplifying the accreditation process for educational institutions. Recognizing that 65% of Indian institutes lack strong accreditations, Studium aims to position India as a leader in global education by offering a solution that reduces time, effort, and costs by 80%. The platform assists colleges and universities in daily accreditation readiness with minimal effort, supported by award-winning software and a dedicated support team.",
@@ -47,14 +54,6 @@ export default function Works() {
       stack: ["Next.js", "GPT API", "MongoDB", "Node.js"],
       // img: "/strategic-planning.svg",
     },
-    // {
-    //   title: "Student App (Studium)",
-    //   liveLink: "https://your-student-app-link.com/",
-    //   about:
-    //     "A mobile app built with React Native that helps students manage their academic activities and assignments. The app integrates with external APIs for notifications and calendar management.",
-    //   stack: ["React Native", "Firebase", "Redux", "Node.js"],
-    //   // img: "/student-app.svg",
-    // },
   ];
   
 
